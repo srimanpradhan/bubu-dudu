@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bubu & Dudu — a little love story.">
+  <title>Bubu ❤️ Dudu | Our Little Forever</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <div id="hearts"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home">♡ <span>Bubu</span> & <span>Dudu</span></a>
+    <nav>
+      <a href="#story">Our Story</a><a href="#gallery">Gallery</a><a href="#letter">Love Letter</a>
+      <a href="#reasons">Reasons</a><a href="#forever">Forever</a>
+    </nav>
+    <button class="music" id="musicBtn" aria-label="Toggle music">♫ <span>Music</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">A little corner of the internet, made with love</p>
+        <h1>Some stories are<br><em>meant to stay.</em></h1>
+        <p class="lead">Bubu & Dudu — not just a story, but a thousand tiny moments that became my favourite part of life.</p>
+        <div class="hero-actions">
+          <button class="primary" id="surpriseBtn">Open a little surprise <span>→</span></button>
+          <a class="ghost" href="#story">Scroll through us ↓</a>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="moon"></div>
+        <div class="bear-card"><div class="bear">🧸</div><div class="bear">🐻</div><span>always us</span></div>
+        <div class="spark s1">✦</div><div class="spark s2">♡</div><div class="spark s3">✦</div>
+      </div>
+    </section>
+
+    <section class="intro section reveal" id="story">
+      <p class="eyebrow">OUR JOURNEY</p>
+      <h2>Every chapter became<br><em>a memory worth keeping.</em></h2>
+      <div class="timeline">
+        <article><b>01</b><span>We Met</span><p>Two people. One unexpected beginning.</p></article>
+        <article><b>02</b><span>We Talked</span><p>Little conversations turned into favourite ones.</p></article>
+        <article><b>03</b><span>We Became Close</span><p>Somehow, you became my safe place.</p></article>
+        <article><b>04</b><span>We Fell</span><p>And suddenly, ordinary days felt different.</p></article>
+        <article><b>05</b><span>Still Us</span><p>Today, tomorrow, and every chapter ahead.</p></article>
+      </div>
+    </section>
+
+    <section class="gallery section reveal" id="gallery">
+      <div class="section-head"><div><p class="eyebrow">OUR LITTLE WORLD</p><h2>Moments I'd replay<br><em>forever.</em></h2></div><button class="outline" id="galleryBtn">View moments ✦</button></div>
+      <div class="photo-grid">
+        <div class="photo p1"><span>sunset hearts</span></div>
+        <div class="photo p2"><span>little smiles</span></div>
+        <div class="photo p3"><span>just us</span></div>
+        <div class="photo p4"><span>one beautiful day</span></div>
+      </div>
+      <p class="hint">Replace these four spaces with your own photos later.</p>
+    </section>
+
+    <section class="letter section reveal" id="letter">
+      <div class="letter-visual">💌</div>
+      <div class="letter-copy">
+        <p class="eyebrow">A LETTER FOR YOU</p>
+        <h2>Dear Dudu,</h2>
+        <p>I don't know how many pages our story will have, but I know I want to keep reading it with you.</p>
+        <p>Thank you for being the smile I look for, the person I think about, and the little piece of happiness that makes normal days feel special.</p>
+        <button class="primary" id="letterBtn">Read the rest →</button>
+        <p class="hidden-letter" id="hiddenLetter">If I could choose one place to be, it would still be beside you. No perfect words, no perfect day — just you and me, choosing each other again. ❤️</p>
+      </div>
+    </section>
+
+    <section class="reasons section reveal" id="reasons">
+      <p class="eyebrow">WHY YOU</p><h2>A few reasons<br><em>you are special.</em></h2>
+      <div class="reason-grid">
+        <div><span>01</span><h3>Your smile</h3><p>My favourite little view.</p></div>
+        <div><span>02</span><h3>Your presence</h3><p>You make everything feel lighter.</p></div>
+        <div><span>03</span><h3>Your heart</h3><p>Soft, beautiful, and impossible to replace.</p></div>
+        <div><span>04</span><h3>Simply you</h3><p>I don't need another reason.</p></div>
+      </div>
+    </section>
+
+    <section class="secret section reveal">
+      <div><p class="eyebrow">PRIVATE LITTLE SECRET</p><h2>There is something<br><em>only you can unlock.</em></h2>
+      <button class="primary" id="secretBtn">Unlock my heart 🔒</button><div class="secret-box" id="secretBox">Psst... You are my favourite notification. My favourite thought. My favourite person. ❤️</div></div>
+    </section>
+
+    <section class="forever section reveal" id="forever">
+      <p class="eyebrow">THE LAST PAGE?</p><h2>Will you stay<br><em>with me forever?</em></h2>
+      <p>Same silly smiles. Same late-night talks. Same two hearts. Just more memories.</p>
+      <div class="choices"><button class="primary" id="yesBtn">Yes, always ❤️</button><button class="outline" id="loveBtn">I love you ♡</button></div>
+      <div class="answer" id="answer"></div>
+    </section>
+  </main>
+
+  <footer>Made with <span>♥</span> for my Dudu · Bubu & Dudu · Forever starts with us.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
