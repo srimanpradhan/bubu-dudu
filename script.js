@@ -1,7 +1,7 @@
 const SITE = {
-  herName: "HER NAME",
-  yourName: "YOUR NAME",
-  secretPassword: "bubu",
+  herName: "Supii",
+  yourName: "Sriman",
+  secretPassword: "@Surya1003",
   letter: `I don't know exactly when you became such an important part of my life.
 
 Maybe it was one of our random conversations. Maybe it was one of those silly little moments we almost forgot.
